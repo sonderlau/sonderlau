@@ -2,9 +2,9 @@
 <h3 align="center">The truth does not spare me and vice versa</h3>
 <h3 align="center">真相不曾放过我 我也不曾放过真相</h3>
 
-- 🔭 I’m currently working on **A Vue / Typescript / Vite Project**
+- 🔭 I’m currently working on **Exams**
 
-- 🌱 I’m currently learning **Machine Learning and Design Patterns**
+- 🌱 I’m currently learning **Block Chain**
 
 <div align="center">
   
@@ -16,13 +16,6 @@
 
 </div>
 
-### Languages and Platform
-<center>
-<img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v4/icons/typescript.svg" />
-<img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v4/icons/vue-dot-js.svg" />
-<img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v4/icons/php.svg" />
-<img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v4/icons/amd.svg" />
-</center>
 
 
 ### Games
