@@ -6,17 +6,19 @@
 
 - 🌱 I’m currently learning **Block Chain**
 
-<div align="center">
+
+
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=SonderLau&theme=react&hide_border=true)](https://git.io/streak-stats)
+
   
-![info](https://github-readme-stats.vercel.app/api?username=SonderLau&show_icons=true&count_private=true&hide=prs&theme=onedark)
+![info](https://github-readme-stats.vercel.app/api?username=SonderLau&show_icons=true&count_private=true&hide=prs&theme=react)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sonderlau)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sonderlau&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=sonderlau)](https://github.com/ryo-ma/github-profile-trophy)
+## Contact
 
-</div>
-
-
+<a href = "mailto:liuless26@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 
 ### Games
 
