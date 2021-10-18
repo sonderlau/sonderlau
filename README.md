@@ -8,8 +8,8 @@
 
 <p padding-left="30%">
 - 🏛 University Student | Majoring in Computer Science <br />
-- 🔭 I’m currently working on Exams<br />
-- 🌱 I’m currently learning Block Chain <br />
+- 🔭 I’m currently working on a project named FlowerColor <br />
+- 🌱 I’m currently learning Software Design <br />
 </p>
 
 
