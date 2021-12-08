@@ -6,12 +6,6 @@
     <img src="https://badges.pufler.dev/commits/monthly/sonderlau" />
 </p>
 
-<p padding-left="30%">
--  University Student | Majoring in Computer Science <br />
-- 🔭 I’m currently working on a project named FlowerColor <br />
-- 🌱 I’m currently learning Software Design <br />
-</p>
-
 ```python
 from dataclasses import dataclass
 from typing import Tuple
