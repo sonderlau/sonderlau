@@ -7,46 +7,54 @@
 </p>
 
 <p padding-left="30%">
-- 🏛 University Student | Majoring in Computer Science <br />
+-  University Student | Majoring in Computer Science <br />
 - 🔭 I’m currently working on a project named FlowerColor <br />
 - 🌱 I’m currently learning Software Design <br />
 </p>
 
-
-<h2 align="center">Technology Stack</h2>
-
-<p align="center">
-<img src="https://img.shields.io/badge/-java-E34A86?style=flat-square&logo=java" />
-<img src="https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c" />
-<img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-<img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3" />
-<img src="https://img.shields.io/badge/-Heroku-430098?style=flat-square&logo=heroku" />
-<img src="https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript" />
-
-<img src="https://img.shields.io/badge/-MySQL-black?style=flat-square&logo=mysql" />
-
-<img src="https://img.shields.io/badge/-Git-black?style=flat-square&logo=git" />
-
-<img src="https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github" />
-
-</p>
+```python
+from dataclasses import dataclass
+from typing import Tuple
 
 
+class Meta(type):
+    def __new__(cls, name, bases, attrs):
+        new_cls = super().__new__(cls, name, bases, attrs)
+        return dataclass(unsafe_hash=True, frozen=True)(new_cls)
+
+
+class Bio(metaclass=Meta):
+    name        : str = "🤝Sonder Lau"
+    job         : str = "🏛Student"
+    designation : str = "🔣Recommendation System Engineer"
+    base        : str = "🏠Hangzhou, ZheJiang, China"
+    blog        : str = "🐚https://sekai.pro"
+
+
+class Stack(metaclass=Meta):
+    languages   : Tuple[str, ...] = ("Python", "C++", "Javascript")
+    databases   : Tuple[str, ...] = ("MySQL", "Mongo")
+    misc        : Tuple[str, ...] = ("Docker", "Linux", "Vim")
+    ongoing     : Tuple[str, ...] = ("Rust", "Algorithm", "AI", "Recommendation System")
+
+
+class Recent(metaclass=Meta):
+    project     : Tuple[str, ...] = ("FlowerColor", "Python Scraper")
+    working     : Tuple[str, ...] = ("Assignments", "Exams")
+    learning    : Tuple[str, ...] = ("Algebra", "Probability Theory")
+```
+
+<h2 align="center">Github Metrics</h2>
+
+
+<div align="center">
+    <img src="https://github-readme-streak-stats.herokuapp.com?user=SonderLau&theme=react&hide_border=true" alt="Github Streak" />
+    <img src="https://github-readme-stats.vercel.app/api?username=SonderLau&show_icons=true&count_private=true&hide=prs&theme=react" alt="info" />
+    <img src="https://activity-graph.herokuapp.com/graph?username=SonderLau&theme=react-dark" alt="Ashutosh's github activity graph" />
+    <img src="https://raw.githubusercontent.com/sonderlau/sonderlau/2f094c013a2cd4e882136e56adff66e189c7b5ef/github-contribution-grid-snake.svg" />
+</div>
 
 
 
 
-
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=SonderLau&theme=react&hide_border=true)](https://git.io/streak-stats)
-
-
-![info](https://github-readme-stats.vercel.app/api?username=SonderLau&show_icons=true&count_private=true&hide=prs&theme=react)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sonderlau&layout=compact&theme=react)](https://github.com/anuraghazra/github-readme-stats)
-
-[![Ashutosh's github activity graph](https://activity-graph.herokuapp.com/graph?username=SonderLau&theme=react-dark)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-
-
-<img src="https://raw.githubusercontent.com/sonderlau/sonderlau/2f094c013a2cd4e882136e56adff66e189c7b5ef/github-contribution-grid-snake.svg" />
+  
