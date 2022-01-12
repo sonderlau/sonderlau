@@ -26,15 +26,15 @@ class Bio(metaclass=Meta):
 
 
 class Stack(metaclass=Meta):
-    languages   : Tuple[str, ...] = ("Python", "C++", "Javascript")
-    databases   : Tuple[str, ...] = ("MySQL", "Mongo")
-    misc        : Tuple[str, ...] = ("Docker", "Linux", "Vim")
-    ongoing     : Tuple[str, ...] = ("Rust", "Algorithm", "AI", "Recommendation System")
+    languages   : Tuple[str, ...] = ("Python", "Javascript")
+    databases   : Tuple[str, ...] = ("MySQL")
+    misc        : Tuple[str, ...] = ("Linux", "Vim")
+    ongoing     : Tuple[str, ...] = ("AI Basics", "Advanced Math", "Algorithm", "Rust", "Recommendation System")
 
 
 class Recent(metaclass=Meta):
-    project     : Tuple[str, ...] = ("FlowerColor", "Python Scraper")
-    working     : Tuple[str, ...] = ("Assignments", "Exams")
+    project     : Tuple[str, ...] = ("Epidemic Scraper", "Inception V3 model")
+    working     : Tuple[str, ...] = ("Assignments")
     learning    : Tuple[str, ...] = ("Algebra", "Probability Theory")
 ```
 
