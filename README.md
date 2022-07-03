@@ -1,10 +1,6 @@
 <img src="https://raw.githubusercontent.com/sonderlau/sonderlau/main/imgs/banner.png">
 
-<p align="center">
-    <img src="https://badges.pufler.dev/visits/sonderlau/sonderlau" />
-    <img src="https://badges.pufler.dev/repos/sonderlau" />
-    <img src="https://badges.pufler.dev/commits/monthly/sonderlau" />
-</p>
+
 
 ```python
 from dataclasses import dataclass
@@ -20,22 +16,22 @@ class Meta(type):
 class Bio(metaclass=Meta):
     name        : str = "🤝Sonder Lau"
     job         : str = "🏛Student"
-    designation : str = "🔣Recommendation System Engineer"
+    designation : str = "🔣MLOps Engineer"
     base        : str = "🏠Hangzhou, ZheJiang, China"
-    blog        : str = "🐚https://sekai.pro"
+    blog        : str = "🐚Upcoming..."
 
 
 class Stack(metaclass=Meta):
     languages   : Tuple[str, ...] = ("Python", "Javascript")
     databases   : Tuple[str, ...] = ("MySQL")
-    misc        : Tuple[str, ...] = ("Linux", "Vim")
+    misc        : Tuple[str, ...] = ("MacOS", "Neovim")
     ongoing     : Tuple[str, ...] = ("AI Basics", "Advanced Math", "Algorithm", "Rust", "Recommendation System")
 
 
 class Recent(metaclass=Meta):
-    project     : Tuple[str, ...] = ("Epidemic Scraper", "Inception V3 model")
-    working     : Tuple[str, ...] = ("Assignments")
-    learning    : Tuple[str, ...] = ("Algebra", "Probability Theory")
+    project     : Tuple[str, ...] = ("Object Detection Project", "MLOps")
+    working     : Tuple[str, ...] = ("None")
+    learning    : Tuple[str, ...] = ("Advanced Math", "Probability Theory")
 ```
 
 <h2 align="center">Github Metrics</h2>
