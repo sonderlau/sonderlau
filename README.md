@@ -38,9 +38,7 @@ class Recent(metaclass=Meta):
 
 
 <div align="center">
-    <img src="https://github-readme-streak-stats.herokuapp.com?user=SonderLau&theme=react&hide_border=true" alt="Github Streak" />
     <img src="https://github-readme-stats.vercel.app/api?username=SonderLau&show_icons=true&count_private=true&hide=prs&theme=react" alt="info" />
-    <img src="https://activity-graph.herokuapp.com/graph?username=SonderLau&theme=react-dark" alt="Ashutosh's github activity graph" />
     <img src="https://raw.githubusercontent.com/sonderlau/sonderlau/2f094c013a2cd4e882136e56adff66e189c7b5ef/github-contribution-grid-snake.svg" />
 </div>
 
