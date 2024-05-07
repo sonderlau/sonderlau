@@ -14,17 +14,17 @@ class Meta(type):
 
 
 class Bio(metaclass=Meta):
-    name        : str = "🤝Sonder Lau"
+    name        : str = "🤝Sonder Liu"
     job         : str = "🏛Postgraduate Student"
-    designation : str = "🔣AIer and Engineer"
-    base        : str = "🏠Hangzhou, ZheJiang, China"
+    designation : str = "🔣Lovely man"
+    base        : str = "🏠Hangzhou, ZheJiang Province, China"
     blog        : str = "🐚Upcoming..."
 
 
 class Stack(metaclass=Meta):
     languages   : Tuple[str, ...] = ("Python", "C++")
     databases   : Tuple[str, ...] = ("SQLite", "Postgres")
-    devices        : Tuple[str, ...] = ("MacBook Pro", "iPad Pro", "OnePlus 12")
+    devices     : Tuple[str, ...] = ("MacBook Pro", "iPad Pro", "OnePlus 12")
     ongoing     : Tuple[str, ...] = ("DL Model", "Paper reading")
 
 
