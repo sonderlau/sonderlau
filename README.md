@@ -24,12 +24,12 @@ class Bio(metaclass=Meta):
 class Stack(metaclass=Meta):
     languages   : Tuple[str, ...] = ("Python", "C++")
     databases   : Tuple[str, ...] = ("SQLite", "Postgres")
-    misc        : Tuple[str, ...] = ("MacOS", "iPad OS", "OnePlus")
-    ongoing     : Tuple[str, ...] = ("Computer Vision", "Bot development")
+    devices        : Tuple[str, ...] = ("MacBook Pro", "iPad Pro", "OnePlus 12")
+    ongoing     : Tuple[str, ...] = ("DL Model", "Paper reading")
 
 
 class Recent(metaclass=Meta):
-    project     : Tuple[str, ...] = ("Weather forecast with DeepLearning")
+    project     : Tuple[str, ...] = ("Weather forecast with Deep Learning")
     working     : Tuple[str, ...] = ("None")
     learning    : Tuple[str, ...] = ("Linear Algebra", "Probability Theory")
 ```
