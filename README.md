@@ -34,15 +34,10 @@ class Recent(metaclass=Meta):
     learning    : Tuple[str, ...] = ("Linear Algebra", "Probability Theory")
 ```
 
-<h2 align="center">Github Metrics</h2>
-
-
 <div align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=SonderLau&show_icons=true&count_private=true&hide=prs&theme=react" alt="info" />
-    <img src="https://raw.githubusercontent.com/sonderlau/sonderlau/2f094c013a2cd4e882136e56adff66e189c7b5ef/github-contribution-grid-snake.svg" />
+I merely added complexity to the foundations laid by others, and then told laypeople that this is a "moat".
+
 </div>
 
 
 
-
-  
