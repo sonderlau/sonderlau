@@ -18,7 +18,7 @@ class Bio(metaclass=Meta):
     job         : str = "🏛Postgraduate Student"
     designation : str = "🔣Lovely man"
     base        : str = "🏠Hangzhou, ZheJiang Province, China"
-    blog        : str = "🐚Upcoming..."
+    blog        : str = "🐚 https://sonderlau.github.io"
 
 
 class Stack(metaclass=Meta):
