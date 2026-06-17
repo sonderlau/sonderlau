@@ -15,21 +15,21 @@ class Meta(type):
 
 class Bio(metaclass=Meta):
     name        : str = "🤝Sonder Liu"
-    job         : str = "🏛Postgraduate Student"
+    job         : str = "🏛PhD. Student"
     designation : str = "🔣Lovely man"
-    base        : str = "🏠Hangzhou, ZheJiang Province, China"
+    base        : str = "🏠Nanjing, Jiangsu Province, China"
     blog        : str = "🐚 https://sonderlau.github.io"
 
 
 class Stack(metaclass=Meta):
     languages   : Tuple[str, ...] = ("Python", "C++")
-    databases   : Tuple[str, ...] = ("SQLite", "Postgres")
-    devices     : Tuple[str, ...] = ("MacBook Pro", "iPad Pro", "OnePlus 12")
+    databases   : Tuple[str, ...] = ("Postgres")
+    devices     : Tuple[str, ...] = ("MacBook Pro", "iPad Pro", "Sony WH1000-XM5", "OnePlus 12")
     ongoing     : Tuple[str, ...] = ("DL Model", "Paper reading")
 
 
 class Recent(metaclass=Meta):
-    project     : Tuple[str, ...] = ("Weather forecast with Deep Learning")
+    project     : Tuple[str, ...] = ("Precipitation nowcasting with Deep Learning")
     working     : Tuple[str, ...] = ("None")
     learning    : Tuple[str, ...] = ("Linear Algebra", "Probability Theory")
 ```
