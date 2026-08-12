@@ -25,12 +25,12 @@ class Stack(metaclass=Meta):
     languages   : Tuple[str, ...] = ("Python", "C++")
     databases   : Tuple[str, ...] = ("Postgres")
     devices     : Tuple[str, ...] = ("MacBook Pro", "iPad Pro", "Sony WH1000-XM5", "OnePlus 12")
-    ongoing     : Tuple[str, ...] = ("DL Model", "Paper reading")
+    ongoing     : Tuple[str, ...] = ("Pursuing PhD. degree")
 
 
 class Recent(metaclass=Meta):
-    project     : Tuple[str, ...] = ("Precipitation nowcasting with Deep Learning")
-    working     : Tuple[str, ...] = ("None")
+    project     : Tuple[str, ...] = ("Extreme theory and optimization", "Nowcast-in-a-box Project")
+    working     : Tuple[str, ...] = ("Internship")
     learning    : Tuple[str, ...] = ("Linear Algebra", "Probability Theory")
 ```
 
