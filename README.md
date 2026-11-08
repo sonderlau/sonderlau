@@ -24,7 +24,7 @@ class Bio(metaclass=Meta):
 class Stack(metaclass=Meta):
     languages   : Tuple[str, ...] = ("Python", "C++")
     databases   : Tuple[str, ...] = ("Postgres")
-    devices     : Tuple[str, ...] = ("MacBook Pro", "iPad Pro", "Sony WH1000-XM5", "OnePlus 12")
+    devices     : Tuple[str, ...] = ("MacBook Pro", "iPad Pro", "Sony WH1000-XM5", "iPhone 18 Pro")
     ongoing     : Tuple[str, ...] = ("Pursuing PhD. degree")
 
 
